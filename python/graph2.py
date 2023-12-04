@@ -7,8 +7,8 @@ from genpy import Time
 
 # Load the data for iteration 1 and iteration 10
 # df1 = pd.read_csv('/home/navaneet/Desktop/ilcmpc/control_history.csv')
-df10 = pd.read_csv('/home/navaneet/Desktop/ilcmpc/iteration_10_data.csv')
-h2 = pd.read_csv('/home/navaneet/Desktop/ilcmpc/H2_values.csv')
+df10 = pd.read_csv('iteration_10_data.csv')
+h2 = pd.read_csv('H2_values.csv')
 
 
 # Extract data for iteration 1
