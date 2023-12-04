@@ -150,12 +150,12 @@ class Controller:
     def lmpc_follower(self):
         dt = 0.1
         d_t = 0.1
-        self.load_trajectory('/home/navaneet/Desktop/ilcmpc/robot_state_history.csv')  # Load the trajectory
+        self.load_trajectory('robot_state_history.csv')  # Load the trajectory
 
-        with open('/home/navaneet/Desktop/ilcmpc/cost.csv', mode='w', newline='') as file, \
-            open('/home/navaneet/Desktop/ilcmpc/iteration_1_data.csv', mode='w', newline='') as file_1, \
-            open('/home/navaneet/Desktop/ilcmpc/iteration_10_data.csv', mode='w', newline='') as file_10 , \
-            open('/home/navaneet/Desktop/ilcmpc/iteration_5_data.csv', mode='w', newline='') as file_5:
+        with open('cost.csv', mode='w', newline='') as file, \
+            open('iteration_1_data.csv', mode='w', newline='') as file_1, \
+            open('iteration_10_data.csv', mode='w', newline='') as file_10 , \
+            open('iteration_5_data.csv', mode='w', newline='') as file_5:
                 
             writer = csv.writer(file)
             writer.writerow(['Iteration', 'cost'])
