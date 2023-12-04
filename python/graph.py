@@ -6,8 +6,8 @@ from mpl_toolkits.mplot3d import Axes3D
 # df1 = pd.read_csv('/home/navaneet/Desktop/ilcmpc/iteration_1_data.csv')
 df1 = pd.read_csv('H2_values.csv')
 
-df10 = pd.read_csv('/home/navaneet/Desktop/ilcmpc/iteration_10_data.csv')
-df5 = pd.read_csv('/home/navaneet/Desktop/ilcmpc/iteration_5_data.csv')
+df10 = pd.read_csv('iteration_10_data.csv')
+df5 = pd.read_csv('iteration_5_data.csv')
 
 df_leader = pd.read_csv('/home/navaneet/Desktop/ilcmpc/robot_state_history_graph.csv')
 
